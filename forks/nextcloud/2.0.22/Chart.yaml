@@ -9,9 +9,9 @@ apiVersion: v2
 appVersion: 30.0.6
 kubeVersion: '>=1.16.0-0'
 maintainers:
-  - name: truenas
-    url: https://www.truenas.com/
-    email: dev@ixsystems.com
+  - name: truenasraz
+    url: https://www.raz.truenas.com/
+    email: razdev@ixsystems.com
 dependencies:
   - name: common
     repository: file://../../../common
@@ -21,7 +21,7 @@ icon: https://media.sys.truenas.net/apps/nextcloud/icons/icon.svg
 sources:
   - https://github.com/nextcloud/docker
   - https://github.com/nextcloud/helm
-  - https://github.com/truenas/charts/tree/master/charts/nextcloud
+  - https://https://github.com/Razbit/charts/tree/nc30/forks/nextcloud
 keywords:
   - nextcloud
   - storage
