@@ -37,7 +37,7 @@
             "sources": [
                 "https://github.com/nextcloud/docker",
                 "https://github.com/nextcloud/helm",
-                "https://https://github.com/Razbit/charts/tree/nc30/charts/nextcloud"
+                "https://https://github.com/Razbit/charts/tree/nc30/forks/nextcloud"
             ],
             "icon_url": "https://media.sys.truenas.net/apps/nextcloud/icons/icon.svg"
         }

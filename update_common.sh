@@ -20,7 +20,7 @@ fi
 REPO="file://../../../common"
 LATEST_COMMON_VERSION=$("$YQ_PATH" '.version' library/common/Chart.yaml)
 
-trains=("charts" "community" "enterprise")
+trains=("forks")
 
 for train in "${trains[@]}"; do
     echo "🚂 Checking [$train]..."
